@@ -1,0 +1,5 @@
+环境
+在idea和eclipse中调试hadoop中hdfs文件，之前好好的，结果突然就出现java.lang.UnsatisfiedLinkError: org.apache.hadoop.util.NativeCrc32.nativeComputeChunkedSumsByteArray(II[BI[BIILjava/lang/String;JZ)V
+
+https://github.com/steveloughran/winutils/tree/master/hadoop-3.0.0/bin
+“需要选择正确的版本并且在 Hadoop/bin和 C：\windows\system32 上添加/替换 ‘hadoop.dll’和‘winutils.exe’”
